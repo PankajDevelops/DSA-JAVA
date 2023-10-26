@@ -32,8 +32,6 @@ public class LinkedList03 {
        }
 
 
-
-
 //Insertation at head
        void insertAtHead(int val){
         Node temp = new Node(val);
@@ -67,7 +65,7 @@ public class LinkedList03 {
 
         }
 
-        for(int i=0; i<=idx-1; i++){
+        for(int i=0; i<idx; i++){
             temp = temp.next;
         }
         t.next=temp.next;
@@ -156,21 +154,22 @@ ll.insertAtEnd(2);
 ll.display();
 ll.insertAtHead(90);
 ll.display();
+
 ll.insertAt(3, 100);
 ll.display();
 
 
-System.out.println(ll.head.data);
-System.out.println(ll.tail.data);
-System.out.println(ll.getAt(4));
-System.out.println(ll.size);
+// System.out.println(ll.head.data);
+// System.out.println(ll.tail.data);
+// System.out.println(ll.getAt(4));
+// System.out.println(ll.size);
 
-ll.display();
-ll.deleteAtIndex(0);
-ll.display();
-System.out.println(ll.tail.data);
-ll.reverse();
-ll.display();
+// ll.display();
+// ll.deleteAtIndex(0);
+// ll.display();
+// System.out.println(ll.tail.data);
+// ll.reverse();
+// ll.display();
         
 
 

@@ -19,7 +19,7 @@ public static Node nthNodeFromEnd(Node head, int n){
 
     int m=size-n+1;
     temp=head;
-    for(int i=1; i<=m; i++){
+    for(int i=1; i<=m-1; i++){
         temp=temp.next;
 
     }
