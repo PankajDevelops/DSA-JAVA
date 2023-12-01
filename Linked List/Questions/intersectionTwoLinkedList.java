@@ -10,14 +10,15 @@ public class intersectionTwoLinkedList {
             this.data=data;
         }
     }
-    //intersection of LL
 
+//intersection of LL
 public static int commonVal(Node head1, Node head2) {
     Node temp1 = head1;
     Node temp2 = head2;
     int count1 = 0;
     int count2 = 0;
 
+//count size
     while (temp1 != null) {
         count1++;
         temp1 = temp1.next;
@@ -28,7 +29,7 @@ public static int commonVal(Node head1, Node head2) {
         temp2 = temp2.next;
     }
 
-    // Reset temp1 and temp2 to the beginning of the lists
+ // Reset temp1 and temp2 to the beginning of the lists
     temp1 = head1;
     temp2 = head2;
 
@@ -40,7 +41,8 @@ public static int commonVal(Node head1, Node head2) {
             }
             temp1 = temp1.next;
         }
-    } else {
+    } 
+    else {
         int steps = count2 - count1;
         for (int i = 0; i < steps; i++) {
             if (temp2 == null) {

@@ -12,7 +12,7 @@ class stackBasics{
         sc.push(96);
 
         System.out.println(sc);
-
+        
         
     }
 }

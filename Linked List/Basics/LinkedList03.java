@@ -22,15 +22,16 @@ public class LinkedList03 {
             head=temp;
             
         }
+
         else{
 
             tail.next=temp;
         }
+
         tail=temp;
         size++;
 
        }
-
 
 //Insertation at head
        void insertAtHead(int val){
@@ -96,7 +97,7 @@ void deleteAtIndex(int idx){
 
     }
     temp.next=temp.next.next;
-    tail=temp;
+    if(idx==size-1)tail=temp;
     size--;
 }
 
@@ -154,7 +155,6 @@ ll.insertAtEnd(2);
 ll.display();
 ll.insertAtHead(90);
 ll.display();
-
 ll.insertAt(3, 100);
 ll.display();
 
@@ -165,8 +165,8 @@ ll.display();
 // System.out.println(ll.size);
 
 // ll.display();
-// ll.deleteAtIndex(0);
-// ll.display();
+ll.deleteAtIndex(4 );
+ll.display();
 // System.out.println(ll.tail.data);
 // ll.reverse();
 // ll.display();

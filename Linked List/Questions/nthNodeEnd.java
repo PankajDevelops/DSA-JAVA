@@ -17,7 +17,7 @@ public static Node nthNodeFromEnd(Node head, int n){
         temp=temp.next;
     }
 
-    int m=size-n+1;
+    int m=size-n+1; 
     temp=head;
     for(int i=1; i<=m-1; i++){
         temp=temp.next;
@@ -28,10 +28,10 @@ public static Node nthNodeFromEnd(Node head, int n){
 }
 
 public static Node nthNodeEnd(Node head, int n){
-    Node fast=head;
+    Node fast = head;
     Node slow = head;
 
-    for(int i=1; i<=n; i++){
+    for(int i=0; i<n; i++){
         fast=fast.next;
     }
 
