@@ -13,8 +13,10 @@ public class intersectionTwoLinkedList {
 
 //intersection of LL
 public static int commonVal(Node head1, Node head2) {
+
     Node temp1 = head1;
     Node temp2 = head2;
+    
     int count1 = 0;
     int count2 = 0;
 

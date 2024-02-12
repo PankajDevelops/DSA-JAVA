@@ -24,7 +24,6 @@ public class insMinHeap{
 
         pushUpInMinHeap(heap, parentIndex);
 
-
     }
 
     static void insertInMinHeap(List<Integer>heap, int element){

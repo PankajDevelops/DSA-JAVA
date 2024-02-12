@@ -7,7 +7,7 @@ public class BubbleSort {
             brr[b]=temp;
         }
         public static void print(int brr[], int n){
-            for(int i=0; i<=n-1; i++){
+            for(int i=0; i<n; i++){
                 System.out.print(brr[i]+" ");
             }
         }
@@ -18,8 +18,8 @@ public class BubbleSort {
             print(arr,7);
             System.out.println("");
             
-            for(int i=0; i<n-1; i++){
-                for(int j=0; j<n-1;j++){
+            for(int i=0; i<n; i++){
+                for(int j=0; j<n-1 ;j++){
                     if(arr[j]>arr[j+1]){
                        swap(arr,j,j+1);
                     }

@@ -48,7 +48,7 @@ class LinkedList01{
             System.out.print(temp.data+" ");
             temp = temp.next;
         }
-System.out.println("");
+        System.out.println("");
         System.out.println(length(a));
 
     }

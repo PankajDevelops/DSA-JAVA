@@ -14,10 +14,9 @@ public class fibonaaci{
 
     public static void main(String[] args) {
 
-        int n = 9;
-       for(int i=0; i<=n; i++){
-        System.out.print(findFib(i)+" ");
-       }
+        int n = 4;
+        n++;
+        System.out.println(findFib(n));
         
     }
 

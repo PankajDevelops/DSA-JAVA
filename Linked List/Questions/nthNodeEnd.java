@@ -28,6 +28,7 @@ public static Node nthNodeFromEnd(Node head, int n){
 }
 
 public static Node nthNodeEnd(Node head, int n){
+    
     Node fast = head;
     Node slow = head;
 

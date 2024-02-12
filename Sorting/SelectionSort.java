@@ -5,6 +5,7 @@ public class SelectionSort {
         brr[a]=brr[b];
         brr[b]=temp;
     }
+	
     public static void print(int brr[], int n){
         for(int i=0; i<=n-1; i++){
             System.out.print(brr[i]+" ");

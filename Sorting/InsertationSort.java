@@ -1,10 +1,6 @@
-
-
 public class InsertationSort {
 
-
-
-        public static void swap(int brr[], int a, int b){
+    public static void swap(int brr[], int a, int b){
             int temp=brr[a];
             brr[a]=brr[b];
             brr[b]=temp;

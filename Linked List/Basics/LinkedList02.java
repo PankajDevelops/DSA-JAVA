@@ -26,7 +26,7 @@ public class LinkedList02 {
     }
 
     //Insert at end (with HEAD)
-public static void insertAtEnds(Node head, int val){
+    public static void insertAtEnds(Node head, int val){
     Node temp = new Node(val);
     Node t = head;
     while(t.next!=null){
@@ -57,11 +57,11 @@ public static void main(String[] args) {
     c.next = d;
     d.next = e;
 
-//LL Printing
-    display(a);
-    System.out.println("");
-//USing reccusrion
-displayRR(a);
+// //LL Printing
+//     display(a);
+//     System.out.println("");
+// //USing reccusrion
+// displayRR(a);
 
  //Reverse using recc
 reverseLR(a);

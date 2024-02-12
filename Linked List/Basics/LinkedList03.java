@@ -12,19 +12,20 @@ public class LinkedList03 {
 
 //LinkedList Backend Code
     public static class LinkedList{
+
         Node head=null;
         Node tail=null;
         int size = 0;
-
+//-------------------------------
        void insertAtEnd(int val){
-         Node temp = new Node(val);
+       Node temp = new Node(val);
+       
         if(head==null){
             head=temp;
             
         }
 
         else{
-
             tail.next=temp;
         }
 
@@ -32,7 +33,7 @@ public class LinkedList03 {
         size++;
 
        }
-
+//----------------------------------
 //Insertation at head
        void insertAtHead(int val){
         Node temp = new Node(val);
@@ -94,7 +95,6 @@ void deleteAtIndex(int idx){
     Node temp = head;
     for(int i=1; i<=idx-1; i++){
         temp=temp.next;
-
     }
     temp.next=temp.next.next;
     if(idx==size-1)tail=temp;
