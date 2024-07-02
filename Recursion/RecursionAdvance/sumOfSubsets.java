@@ -7,7 +7,7 @@ public class sumOfSubsets {
         int n = arr.length;
 
         if(idx>= n){
-            System.out.print(sum+" ");
+            System.out.println(sum+" ");
             return;
         } 
         
@@ -18,7 +18,7 @@ public class sumOfSubsets {
 
     public static void main(String[] args) {
         
-        int arr[] = {4,5,2};
+        int arr[] = {1,2,5};
         int idx = 0;
         int sum = 0 ;
 

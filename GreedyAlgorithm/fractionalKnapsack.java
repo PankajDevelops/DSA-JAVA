@@ -4,10 +4,10 @@ public class fractionalKnapsack {
 
     public static void main(String[] args) {
         
-        int weight[] = {10, 20, 30};
-        int value[] = {60, 100, 120};
+        int weight[] = {1, 3, 4,5};
+        int value[] = {1, 4, 5,7};
 
-        int W = 50;
+        int W = 7;
 
         // double arr[][] = new double[weight.length][3];
 

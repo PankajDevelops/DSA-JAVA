@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 public class findSubsequenceString {
 
-    //with using SPACE of AyyaList 2^n
-    public static ArrayList<String> getSubSequence(String str){
+    // with using SPACE of AyyaList 2^n
+    public static ArrayList<String> getSubSequence(String str) {
 
         ArrayList<String> ans = new ArrayList<>();
 
-        if(str.length()==0){
+        if (str.length() == 0) {
             ans.add("");
             return ans;
         }
@@ -18,10 +18,10 @@ public class findSubsequenceString {
 
         ArrayList<String> smallAns = getSubSequence(str.substring(1));
 
-        for(String str1 : smallAns){
+        for (String str1 : smallAns) {
 
             ans.add(str1);
-            ans.add(curr+str1);
+            ans.add(curr + str1);
 
         }
 
@@ -29,11 +29,11 @@ public class findSubsequenceString {
 
     }
 
-    //printing subsequence without using extra SPACE
+    // printing subsequence without using extra SPACE
 
-    public static void printSubSequnece(String str, String currAns){
+    public static void printSubSequnece(String str, String currAns) {
 
-        if(str.length()==0){
+        if (str.length() == 0) {
             System.out.println(currAns);
             return;
         }
@@ -42,26 +42,24 @@ public class findSubsequenceString {
 
         String remString = str.substring(1);
 
-        printSubSequnece(remString, currAns+ch);
+        printSubSequnece(remString, currAns + ch);
         printSubSequnece(remString, currAns);
     }
-
 
     public static void main(String[] args) {
 
         String str = "abc";
-//Method : 1
+        // Method : 1
         // ArrayList<String> ans = getSubSequence(str);
-        
-        // for(String str1 : ans){
-        //     System.out.println(str1+" ");
+
+        // for (String str1 : ans) {
+        // System.out.println(str1 + " ");
         // }
 
-//Method : 2
+        // Method : 2
 
-printSubSequnece(str, "");
-        
+        printSubSequnece(str, "");
 
     }
-    
+
 }

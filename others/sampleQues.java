@@ -32,7 +32,7 @@ public class sampleQues {
             arr[c]++;
         }
 
-        int maxFreq = 0;
+         maxFreq = 0;
 
         for(int num: arr){
             if(maxFreq<num){

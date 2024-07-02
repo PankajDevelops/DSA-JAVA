@@ -1,6 +1,5 @@
 public class BubbleSort {
 
-
         public static void swap(int brr[], int a, int b){
             int temp=brr[a];
             brr[a]=brr[b];

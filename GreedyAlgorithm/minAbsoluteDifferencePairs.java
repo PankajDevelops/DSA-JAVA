@@ -4,7 +4,6 @@ import java.util.*;
 public class minAbsoluteDifferencePairs {
 
     public static void main(String[] args) {
-        
 
         int arr[] = {4, 1, 8, 7};
         int brr[] = {2, 3, 6, 5};
@@ -19,10 +18,7 @@ public class minAbsoluteDifferencePairs {
             sum+=Math.abs(arr[i]-brr[i]);
         }
 
-
         System.out.println(sum);
-
-
 
 
     }

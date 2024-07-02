@@ -21,6 +21,7 @@ public class nCoins {
             sb.append(i);
         }
         System.out.println(sb.toString());
+        
     }
     
 }

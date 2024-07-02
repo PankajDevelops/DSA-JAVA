@@ -31,7 +31,7 @@ public class activitySelectionProblem{
         for(int i=1; i<end.length; i++){
             if(act[i][1]>=currAct){
                 maxAct++;
-                currAct = act[i][1];
+                currAct = act[i][2];
                 ls.add(act[i][0]);
             }
         }
@@ -39,6 +39,7 @@ public class activitySelectionProblem{
         System.out.println("Maximum Activites:" + maxAct);
 
         for(int i=0; i<ls.size(); i++){
+
             System.out.print("A"+ls.get(i)+" ");
         }
         

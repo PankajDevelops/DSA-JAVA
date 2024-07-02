@@ -1,0 +1,1 @@
+System.out.print(ans[i] + " ");
