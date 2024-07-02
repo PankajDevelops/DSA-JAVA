@@ -12,6 +12,7 @@ public class GCD {
     }
 
     public static int gcdEuclid(int x, int y){
+        
         if(y==0){
             return x;
         }

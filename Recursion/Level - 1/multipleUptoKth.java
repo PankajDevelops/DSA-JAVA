@@ -13,18 +13,20 @@ public class multipleUptoKth {
     }
 
     public static int altSign(int n){
+         
         if(n==1){
             return 1;
         }
-        int even=0;
+
+        int even=0; 
         int odd=0;
+
         if(n%2==0){
             
            return altSign(n-1)-n;
         }
 
         return odd=altSign(n-1)+n;
-        
 
     }
 

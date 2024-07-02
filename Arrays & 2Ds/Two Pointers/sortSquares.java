@@ -33,7 +33,7 @@ public class sortSquares {
         int n = arr.length;
 
         int ans[] = new int[n];
-        int k =0;
+        int k = 0;
 
         int left = 0;
         int right = n-1;

@@ -28,7 +28,7 @@ public class pSumRange {
         
          
         int arr[] = {2,4,1,3,6,5};
-        int n = arr.length;
+        int n = arr.length; 
 
         System.out.println("Original Array");
         printArray(arr, n);
