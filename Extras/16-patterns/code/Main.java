@@ -1,4 +1,3 @@
-package com.kunal;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +19,7 @@ public class Main {
     static void pattern30(int n) {
         for (int row = 1; row <= n; row++) {
 
-            for (int space = 0; space < n-row; space++) {
+            for (int space = 0; space < n - row; space++) {
                 System.out.print("  ");
             }
 
@@ -38,9 +37,9 @@ public class Main {
     static void pattern17(int n) {
         for (int row = 1; row <= 2 * n; row++) {
 
-            int c = row > n ? 2 * n - row: row;
+            int c = row > n ? 2 * n - row : row;
 
-            for (int space = 0; space < n-c; space++) {
+            for (int space = 0; space < n - c; space++) {
                 System.out.print("  ");
             }
 
@@ -57,7 +56,7 @@ public class Main {
 
     static void pattern28(int n) {
         for (int row = 0; row < 2 * n; row++) {
-            int totalColsInRow = row > n ? 2 * n - row: row;
+            int totalColsInRow = row > n ? 2 * n - row : row;
 
             int noOfSpaces = n - totalColsInRow;
             for (int s = 0; s < noOfSpaces; s++) {
@@ -73,7 +72,7 @@ public class Main {
 
     static void pattern5(int n) {
         for (int row = 0; row < 2 * n; row++) {
-            int totalColsInRow = row > n ? 2 * n - row: row;
+            int totalColsInRow = row > n ? 2 * n - row : row;
             for (int col = 0; col < totalColsInRow; col++) {
                 System.out.print("* ");
             }
@@ -95,7 +94,7 @@ public class Main {
     static void pattern3(int n) {
         for (int row = 1; row <= n; row++) {
             // for every row, run the col
-            for (int col = 1; col <= n-row+1; col++) {
+            for (int col = 1; col <= n - row + 1; col++) {
                 System.out.print("* ");
             }
             // when one row is printed, we need to add a newline

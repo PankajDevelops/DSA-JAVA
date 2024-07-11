@@ -1,4 +1,4 @@
-package others;
+package others.Patterns;
 
 public class pattern {
 
