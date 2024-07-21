@@ -26,6 +26,7 @@ class rectangularSum{
     }
 
     public static int findSum3(int[][] matrix, int l1, int r1, int l2, int r2){
+        
         int ans = 0;
         int sum = 0, up=0, left=0, leftUp=0;
 
