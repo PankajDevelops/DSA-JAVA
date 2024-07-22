@@ -8,6 +8,7 @@ public class pPowerq {
         // return p*powerOfpq(p,q-1);
 
         if(q==0)return 1;
+
         if(q%2==0){
             int smallPow = powerOfpq(p, q/2);
             return smallPow*smallPow;
@@ -18,7 +19,6 @@ public class pPowerq {
 
         }
 
-
     public static void main(String[] args) {
         
         int p = 2;
@@ -26,7 +26,6 @@ public class pPowerq {
 
         int ans = powerOfpq(p, q);
         System.out.println(ans);
-
 
 
     }

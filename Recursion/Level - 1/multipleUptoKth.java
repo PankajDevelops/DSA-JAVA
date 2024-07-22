@@ -36,7 +36,7 @@ public class multipleUptoKth {
         int n = 12;
         int k = 5 ;
    
-        printUptoKth(n, k);
+        // printUptoKth(n, k);
         System.out.println("");
         System.out.println(altSign(5));
 
