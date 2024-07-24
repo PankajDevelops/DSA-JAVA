@@ -4,7 +4,7 @@ public class printArray {
 
     public static void printArr(int arr[], int i){
 
-        if(i==arr.length-1) return;
+        if(i==arr.length) return;
         
         System.out.print(arr[i]+" ");
         printArr(arr,i+1);

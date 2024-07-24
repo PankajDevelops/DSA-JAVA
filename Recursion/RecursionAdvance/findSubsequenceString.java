@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class findSubsequenceString {
 
-    // with using SPACE of AyyaList 2^n
+    // with using SPACE of ArrayList 2^n
     public static ArrayList<String> getSubSequence(String str) {
 
         ArrayList<String> ans = new ArrayList<>();
@@ -44,11 +44,13 @@ public class findSubsequenceString {
 
         printSubSequnece(remString, currAns + ch);
         printSubSequnece(remString, currAns);
+
     }
 
     public static void main(String[] args) {
 
         String str = "abc";
+        
         // Method : 1
         // ArrayList<String> ans = getSubSequence(str);
 
