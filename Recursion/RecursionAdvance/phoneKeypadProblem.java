@@ -24,10 +24,9 @@ public class phoneKeypadProblem {
         String str = "253";
 
         String keyPad[] = {"","","abc","def","ghi","jkl","mno","qprs","tuv","wxyz"};
-                        // 0   1   2     3     4     5     6     7     8      9
+                        //  0   1   2     3     4     5     6     7     8      9
 
         combination(str,keyPad,"");
-
 
         
     }
