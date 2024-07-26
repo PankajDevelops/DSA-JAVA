@@ -2,20 +2,19 @@ package Recursion.RecursionAdvance;
 
 public class phoneKeypadProblem {
 
-    public static void combination(String dig,String keyPad[], String ans){
+    public static void combination(String dig, String keyPad[], String ans) {
 
-        if(dig.length()==0){
-            System.out.print(ans+" ");
+        if (dig.length() == 0) {
+            System.out.print(ans + " ");
             return;
         }
 
         int currNum = dig.charAt(0) - '0';
         String currChoices = keyPad[currNum];
 
-        for(int i=0; i<currChoices.length(); i++){
-            combination(dig.substring(1), keyPad, ans+currChoices.charAt(i));
+        for (int i = 0; i < currChoices.length(); i++) {
+            combination(dig.substring(1), keyPad, ans + currChoices.charAt(i));
         }
-
 
     }
 
