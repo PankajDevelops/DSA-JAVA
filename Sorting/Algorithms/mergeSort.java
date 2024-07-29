@@ -17,7 +17,7 @@ public class mergeSort {
 
         sortMerge(arr, si, mid);
         sortMerge(arr, mid + 1, ei);
-
+ 
         merge(arr, si, mid, ei);
     }
 
