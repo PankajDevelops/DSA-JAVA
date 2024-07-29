@@ -1,4 +1,4 @@
-package Sorting.Algorithms;
+package Sorting.Algorithms.Sorting01;
 public class InsertationSort {
 
     public static void swap(int brr[], int a, int b){
