@@ -1,3 +1,4 @@
+package Sorting.Algorithms;
 public class SelectionSort {
 
 	public static void swap(int brr[], int a, int b) {
