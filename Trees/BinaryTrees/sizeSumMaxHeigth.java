@@ -1,4 +1,4 @@
-package Trees;
+package Trees.BinaryTrees;
 
 public class sizeSumMaxHeigth {
 
