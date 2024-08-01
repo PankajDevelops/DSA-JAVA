@@ -16,7 +16,7 @@ public class queue_01 {
         q.add(4);
         q.add(5);
 
-       /*  System.out.println("Size: " +q.size());
+       System.out.println("Size: " +q.size());
         System.out.println(q);
         q.remove();
         System.out.println(q);
@@ -26,7 +26,7 @@ public class queue_01 {
 
         //for top
         System.out.println(q.element());
-        System.out.println(q.peek());*/
+        System.out.println(q.peek());
 
         for(int num : q){
             System.out.print(num+" ");

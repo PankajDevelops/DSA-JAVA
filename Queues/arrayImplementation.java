@@ -23,10 +23,9 @@ public class arrayImplementation {
             if (f == -1) {
                 f = r = 0;
                 arr[0] = val;
-            } else {
-
+            } 
+            else {
                 arr[++r] = val;
-
             }
 
             size++;
