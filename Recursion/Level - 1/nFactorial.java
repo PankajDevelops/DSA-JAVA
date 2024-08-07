@@ -1,18 +1,16 @@
 
-
 public class nFactorial {
 
-    public static int nFact(int n){
+    public static int nFact(int n) {
 
-        if(n==0)
+        if (n <= 1)
             return 1;
-        
-    //    int smallAns = nFact(n-1);
-    //    int ans = n*smallAns;
-    //    return ans;
-          return n*nFact(n-1);
-    }
 
+        // int smallAns = nFact(n-1);
+        // int ans = n*smallAns;
+        // return ans;
+        return n * nFact(n - 1);
+    }
 
     public static void main(String[] args) {
 
@@ -20,8 +18,7 @@ public class nFactorial {
 
         int k = nFact(n);
         System.out.println(k);
-        
 
     }
-    
+
 }
