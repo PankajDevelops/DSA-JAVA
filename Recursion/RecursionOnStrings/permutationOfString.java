@@ -1,4 +1,4 @@
-package Backtracking;
+package Recursion.RecursionOnStrings;
 
 public class permutationOfString {
 
