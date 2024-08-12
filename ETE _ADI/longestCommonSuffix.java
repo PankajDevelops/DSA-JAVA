@@ -1,4 +1,4 @@
-package CoCubes;
+
 public class longestCommonSuffix {
 
     public static void main(String[] args) {

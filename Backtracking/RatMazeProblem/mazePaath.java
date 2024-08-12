@@ -1,5 +1,4 @@
 package Backtracking;
-
 public class mazePaath {
 
     public static void main(String[] args) {

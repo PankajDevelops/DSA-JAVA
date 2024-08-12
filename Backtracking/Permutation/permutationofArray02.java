@@ -1,4 +1,4 @@
-package Backtracking;
+package Backtracking.Permutation;
 
 import java.util.*;
 
