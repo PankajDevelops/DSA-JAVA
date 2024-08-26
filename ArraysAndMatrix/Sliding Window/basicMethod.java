@@ -11,6 +11,8 @@ public class basicMethod {
         int currSum = 0;
         int maxSum = 0;
 
+        maxSum = currSum;
+        
         for(int i=0; i<k; i++){
             currSum+=arr[i];
         }

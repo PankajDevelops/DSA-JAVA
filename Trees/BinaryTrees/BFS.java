@@ -1,4 +1,4 @@
-package Trees;
+package Trees.BinaryTrees ;
 
 import java.util.*;
 public class BFS{
