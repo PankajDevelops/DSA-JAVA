@@ -12,9 +12,9 @@ class ArrayImplementation {
         }
     }
 
-    static Node binaryTree(int arr[], int idx) {
+    static Node binaryTree(Integer arr[], int idx) {
 
-        if (idx >= arr.length)
+        if (idx >= arr.length || arr[idx] == null) // Handling null values
             return null;
 
         Node temp = new Node(arr[idx]);
@@ -59,7 +59,7 @@ class ArrayImplementation {
 
     public static void main(String[] args) {
 
-        int[] arr = { 11, 22, 3, 54, 15, 23, 21 };
+        Integer[] arr = { 11, 22, 3, null, 15, 23, null }; // Using null for empty nodes
 
         Node root = binaryTree(arr, 0);
 
