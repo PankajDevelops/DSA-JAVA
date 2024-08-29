@@ -1,4 +1,4 @@
-package Maths.LEVEL_01;
+package Mathematics.LEVEL_01;
 
 public class checkNumEvenOdd {
 
