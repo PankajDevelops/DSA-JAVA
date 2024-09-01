@@ -1,4 +1,4 @@
-package Maths.LEVEL_02;
+// package Maths.LEVEL_02;
 import java.util.*;
 public class sieveOfErosthenes {
 

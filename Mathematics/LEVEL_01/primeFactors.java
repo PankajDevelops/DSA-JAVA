@@ -4,7 +4,7 @@ public class primeFactors {
 
     public static void main(String[] args) {
 
-        int m = 40;
+        int m = 60;
 
         for (int i = 2; i <=Math.sqrt(m); i++) {
 
