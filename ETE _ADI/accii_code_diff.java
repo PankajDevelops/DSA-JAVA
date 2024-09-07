@@ -21,7 +21,7 @@ public class accii_code_diff {
 
         }
 
-        System.out.println(sb.toString());
+        System.out.print(sb.toString());
 
     }
 
