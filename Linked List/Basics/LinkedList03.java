@@ -32,7 +32,7 @@ public class LinkedList03 {
         tail=temp;
         size++;
 
-       }
+    }
 //----------------------------------
 //Insertation at head
        void insertAtHead(int val){
