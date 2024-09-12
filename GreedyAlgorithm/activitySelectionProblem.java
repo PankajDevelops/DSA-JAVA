@@ -18,7 +18,7 @@ public class activitySelectionProblem{
         }
 
         //imp lambda fucntion
-        Arrays.sort(act,Comparator.comparingDouble(o->o[2]));
+        // Arrays.sort(act,Comparator.comparingDouble(o->o[2]));
 
         ArrayList<Integer> ls = new ArrayList<>();
 
