@@ -31,6 +31,37 @@ public class pushInMinHeap {
         checkPos(ls, idx);
     }
 
+    //----------------------
+    public static void delete_from_minHeap(List<Integer> ls) {
+
+        swap(ls, 0, ls.size() - 1);
+        pushDownInMinHeap(ls, 0);
+    }
+
+    public static void pushDownInMinHeap(List<Integer> ls, int idx) {
+
+        int n = ls.size() - 1;
+        if (idx == n) {
+            return;
+        }
+
+        int left = (2 * idx) + 1;
+        int right = (2 * idx) + 2;
+        int smallest = idx;
+
+        if (left <= n && ls.get(left) < ls.get(smallest)) {
+            smallest = left;
+        }
+        if (right <= n && ls.get(right) < ls.get(smallest)) {
+            smallest = right;
+        }
+
+        if (smallest == idx)
+            return;
+        swap(ls, smallest, idx);
+        pushDownInMinHeap(ls, smallest);
+    }
+
     public static void main(String[] args) {
 
         List<Integer> ls = new ArrayList<>();
