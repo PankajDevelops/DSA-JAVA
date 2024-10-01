@@ -9,6 +9,7 @@ public class reverseStack {
             st.push(x);
         return;
     } 
+    
     int top = st.pop();
         pushAtBottom(st,x);
         st.push(top);

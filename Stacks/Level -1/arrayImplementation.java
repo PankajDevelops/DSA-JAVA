@@ -1,60 +1,59 @@
-
-
 public class arrayImplementation {
 
-    public static class Stack{
+    public static class Stack {
 
-    private  int[] arr = new int[4];
-    private  int idx = 0;
+        private int[] arr = new int[4];
+        private int idx = 0;
 
-        void push(int x){
-            if(isFull()==true){
+        void push(int x) {
+            if (isFull() == true) {
                 System.out.println("Stack Full !!!");
                 return;
             }
-                arr[idx] = x;
-                idx++; 
+            arr[idx] = x;
+            idx++;
         }
 
-        int peek(){
-            if(idx==0){
+        int peek() {
+            if (idx == 0) {
                 System.out.println("Stack Empty !!!");
                 return -1;
             }
-            return arr[idx-1];
+            return arr[idx - 1];
         }
 
-        int pop(){ 
-            if(idx==0){
+        int pop() {
+            if (idx == 0) {
                 System.out.println("Stack Empty !!!");
                 return -1;
             }
-            int top = arr[idx-1];
-            arr[idx-1]=0;
+            int top = arr[idx - 1];
+            arr[idx - 1] = 0;
             idx--;
             return top;
 
         }
 
-        void display(){
-            for(int i=0; i<idx; i++){
-                System.out.print(arr[i]+" ");
+        void display() {
+            for (int i = 0; i < idx; i++) {
+                System.out.print(arr[i] + " ");
             }
             System.out.println("");
         }
-        int size(){
 
+        int size() {
             return idx;
         }
 
-        boolean isEmpty(){
-            if(idx==0){
+        boolean isEmpty() {
+            if (idx == 0) {
                 return true;
             }
             return false;
         }
-        boolean isFull(){
-            if(idx==arr.length){
+
+        boolean isFull() {
+            if (idx == arr.length) {
                 return true;
             }
             return false;
@@ -67,25 +66,16 @@ public class arrayImplementation {
         Stack st = new Stack();
 
         st.push(4);
-        st.display();
         st.push(5);
-        st.display();
         st.push(6);
         st.display();
-        System.out.println(st.size());
-        st.pop();
-        st.display();
-        System.out.println(st.size());
-
+        System.out.println("");
         st.push(7);
         st.push(9);
         System.out.println(st.isFull());
         st.push(100);
 
         
-        
-        
-
     }
-    
+
 }

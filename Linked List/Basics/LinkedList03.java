@@ -17,6 +17,7 @@ public class LinkedList03 {
         Node tail=null;
         int size = 0;
 //-------------------------------
+// Insertation at tail
        void insertAtEnd(int val){
        Node temp = new Node(val);
        
@@ -52,6 +53,7 @@ public class LinkedList03 {
 
 //Insert at INDEX ACCORDINGLY
        void insertAt(int idx, int val){
+        
         Node t = new Node(val);
         Node temp = head;
         if(idx==size){
@@ -70,6 +72,7 @@ public class LinkedList03 {
         for(int i=0; i<idx; i++){
             temp = temp.next;
         }
+
         t.next=temp.next;
         temp.next=t;
         size++;
