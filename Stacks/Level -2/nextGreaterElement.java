@@ -15,7 +15,7 @@ public class nextGreaterElement {
         ans[n - 1] = -1;
         st.push(arr[n - 1]);
 
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = n - 2; i >= 0; i--) {
 
             while (!st.isEmpty() && arr[i] >= st.peek()) {
                 st.pop();
@@ -29,6 +29,11 @@ public class nextGreaterElement {
         }
 
         for (int num : arr) {
+            System.out.print(num + " ");
+        }
+        System.out.println("");
+
+        for (int num : ans) {
             System.out.print(num + " ");
         }
 
