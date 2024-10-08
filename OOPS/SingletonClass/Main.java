@@ -4,6 +4,8 @@ class coffeeMachine{
 
     private float coffeeQty;
     private float waterQty;
+    private float sugerQty;
+    private float milkQty;
 
     static private coffeeMachine our = null;
 
@@ -11,6 +13,20 @@ class coffeeMachine{
         
         coffeeQty = 1;
         waterQty = 1;
+        milkQty = 1;
+        sugerQty = 1;
+    }
+
+    public void fillSugar(float qty){
+        sugerQty = qty;
+    }
+    
+    public void fillwater(float qty) {
+        waterQty = qty;
+    }
+    
+    public float getCoffee() {
+        return 0.23f;
     }
 
     static public coffeeMachine getInstance(){
@@ -21,6 +37,7 @@ class coffeeMachine{
 
         return our;
     }
+
 }
 
 
