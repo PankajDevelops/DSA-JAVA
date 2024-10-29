@@ -1,4 +1,5 @@
-package Backtracking;
+package Backtracking.RatMazeProblem;
+
 public class mazePaath {
 
     public static void main(String[] args) {
@@ -6,7 +7,7 @@ public class mazePaath {
         int rows = 3;
         int cols = 2;
 
-        int count = maze(0, 0, rows-1, cols-1);
+        int count = maze(0, 0, rows - 1, cols - 1);
 
         System.out.println(count);
     }

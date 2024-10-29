@@ -1,7 +1,6 @@
-// package Hashing;
-import java.util.*;
+package Hashing;
 
-import javax.sound.midi.Soundbank;
+import java.util.*;
 
 public class hash_01 {
 

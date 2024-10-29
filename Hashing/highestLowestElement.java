@@ -1,5 +1,6 @@
-import java.util.*;
+package Hashing;
 
+import java.util.*;
 public class highestLowestElement {
 
     public static void printMinMax(int arr[], int n){

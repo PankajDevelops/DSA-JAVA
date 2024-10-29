@@ -1,24 +1,25 @@
-// package Arrays & 2Ds.ArrayLists;
+package ArraysAndMatrix.ArrayLists;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class revList {
 
-    static void reverseList(ArrayList<Integer>list){
-        int i=0; int j=list.size()-1;
+    static void reverseList(ArrayList<Integer> list) {
+        int i = 0;
+        int j = list.size() - 1;
 
-        while(i<j){
+        while (i < j) {
             int temp = Integer.valueOf(list.get(i));
-            list.set(i,list.get(j));
-            list.set(j,temp);
+            list.set(i, list.get(j));
+            list.set(j, temp);
             i++;
             j--;
         }
     }
 
     public static void main(String[] args) {
-        
+
         ArrayList<Integer> arr = new ArrayList<>();
 
         arr.add(0);
@@ -31,18 +32,16 @@ public class revList {
         System.out.println(arr);
 
         // for(int i=arr.size()-1; i>=0; i--){
-        //     System.out.print(arr.get(i)+" ");
+        // System.out.print(arr.get(i)+" ");
         // }
         Collections.reverse(arr);
         System.out.println(arr);
         // reverseList(arr);
 
-
         Collections.sort(arr);
-        System.out.println("Acending Order "+arr);
-        Collections.sort(arr,Collections.reverseOrder());
-        System.out.println("Decending Order "+arr);
-
+        System.out.println("Acending Order " + arr);
+        Collections.sort(arr, Collections.reverseOrder());
+        System.out.println("Decending Order " + arr);
 
         ArrayList<String> str = new ArrayList<>();
 
@@ -55,8 +54,6 @@ public class revList {
         Collections.sort(str);
         System.out.println(str);
 
-
-
     }
-    
+
 }

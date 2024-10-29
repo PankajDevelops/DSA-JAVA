@@ -1,4 +1,4 @@
-// package BinarySearch;
+package BinarySearch;
 
 public class recursiveBinarySearch {
 

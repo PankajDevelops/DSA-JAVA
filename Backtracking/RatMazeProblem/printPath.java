@@ -1,4 +1,4 @@
-package Backtracking;
+package Backtracking.RatMazeProblem;
 
 public class printPath {
 
@@ -7,7 +7,7 @@ public class printPath {
         int rows = 3;
         int cols = 3;
 
-        printMaze(0, 0, rows - 1, cols - 1,"");
+        printMaze(0, 0, rows - 1, cols - 1, "");
 
     }
 
