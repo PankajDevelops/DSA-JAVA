@@ -1,4 +1,4 @@
-// package HashMap;
+package HashMap.Basics;
 import java.util.*;
 public class mostFreqElement {
 
