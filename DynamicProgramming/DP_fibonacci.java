@@ -1,7 +1,6 @@
 package DynamicProgramming;
 
 public class DP_fibonacci {
-    static int calls = 0;
 
     static int fib(int n, int dp[]) {
         if (n == 0 || n == 1)
@@ -10,7 +9,6 @@ public class DP_fibonacci {
         if (dp[n] != -1)
             return dp[n];
 
-        calls++;
         return dp[n] = fib((n - 1), dp) + fib((n - 2), dp);
     }
 
@@ -25,7 +23,6 @@ public class DP_fibonacci {
         }
 
         System.out.println(fib(n - 1, dp));
-        System.out.println("Calls: " + calls);
     }
 
 }
