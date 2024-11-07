@@ -1,4 +1,4 @@
-// package ArraysAndMatrix.2Ds;
+
 
 public class Demo2dArray {
 
