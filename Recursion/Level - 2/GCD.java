@@ -8,6 +8,7 @@ public class GCD {
             x=y;
             y=rem;
         }
+        
         return y;
     }
 
