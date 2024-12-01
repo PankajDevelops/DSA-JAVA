@@ -47,6 +47,7 @@ public class fractionalKnapsack {
        }
 
        Arrays.sort(ratio,Comparator.comparingDouble(o -> o[1]));
+       //using comparator to sort 2D Array
 
        int capacity = W;
        int finalAns = 0; 
