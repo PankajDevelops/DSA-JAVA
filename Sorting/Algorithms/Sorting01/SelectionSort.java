@@ -32,5 +32,6 @@ public class SelectionSort {
 
 		print(arr, 7);
 
+		
 	}
 }
