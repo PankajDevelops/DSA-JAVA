@@ -18,7 +18,6 @@ abstract class Vehicle{
     abstract void accelerate();
     abstract void brake();
 
-
 }
 
 class car extends Vehicle{
