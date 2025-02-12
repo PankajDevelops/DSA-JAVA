@@ -1,5 +1,4 @@
 package BitMasking;
-
 import java.util.Scanner;
 
 public class countSetBit {
