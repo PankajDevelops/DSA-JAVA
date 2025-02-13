@@ -1,6 +1,8 @@
 package BitMasking;
 import java.util.Scanner;
 
+//started bitManipulation
+
 public class countSetBit {
 
     public static int countSetBit(int n) {
