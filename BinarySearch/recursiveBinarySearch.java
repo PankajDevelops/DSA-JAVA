@@ -1,4 +1,5 @@
 package BinarySearch;
+//binary research using reclusion
 
 public class recursiveBinarySearch {
 
