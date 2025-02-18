@@ -21,8 +21,8 @@ public class quickSortMin {
 
     public static int partition(int arr[], int s, int e) {
 
-        int i = s - 1;
         int pi = arr[e];
+        int i = s - 1;
 
         for (int j = s; j < e; j++) {
             if (arr[j] < pi) {

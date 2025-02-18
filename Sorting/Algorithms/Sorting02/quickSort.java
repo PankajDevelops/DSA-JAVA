@@ -43,7 +43,7 @@ public class quickSort {
         int j = end;
 
         while (i < piIdx && j > piIdx) {
-
+ 
             while (arr[i] <= pivot)
                 i++;
             while (arr[j] > pivot)
