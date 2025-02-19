@@ -40,6 +40,8 @@ public class quickSortMin {
         arr[i] = temp;
 
         return i;
+
+        
     }
 
     public static void main(String[] args) {
