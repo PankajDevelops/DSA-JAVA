@@ -1,4 +1,3 @@
-// package Arrays & 2Ds.2Ds;
 
 public class pascalsTriangle {
 
