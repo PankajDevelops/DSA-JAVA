@@ -1,4 +1,4 @@
-package Maths.LEVEL_02;
+package Mathematics.LEVEL_02;
 
 public class climbingStairs {
 

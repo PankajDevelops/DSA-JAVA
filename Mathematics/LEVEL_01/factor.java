@@ -16,7 +16,7 @@ public class factor {
         for (int i = (int) Math.sqrt(n); i >= 1; i--) {
 
             if (n % i == 0) {
-                if (i != Math.sqrt(n)) {
+                if (i != n/i) {
                     System.out.print((n / i) + " ");
                 }
             }
