@@ -11,8 +11,8 @@ public class gcdMethod {
 
     public static void main(String[] args) {
         
-        int a = 24;
-        int b = 72;
+        int a = 12;
+        int b = 18;
 
         System.out.println(gcd(a,b));
 
