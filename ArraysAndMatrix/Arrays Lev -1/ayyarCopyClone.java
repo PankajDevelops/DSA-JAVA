@@ -1,5 +1,7 @@
 import java.util.*;
 
+// all array methods
+
 public class ayyarCopyClone{
 
     public static void printArray(int arr[], int x){
