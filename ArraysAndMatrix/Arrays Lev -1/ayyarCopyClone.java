@@ -10,6 +10,7 @@ public class ayyarCopyClone{
 
             System.out.print(arr[i]+" ");
         }
+        
         System.out.println("");
 
     }
@@ -45,7 +46,6 @@ public class ayyarCopyClone{
         System.out.println("brr2 modified Array");
         printArray(brr2, 5);
 
-
         //copyOf Method
         int[] crr1 = Arrays.copyOf(brr2,brr2.length);
         System.out.println("crr2 copyOf method (origonal value not changed)");
@@ -54,8 +54,6 @@ public class ayyarCopyClone{
         //copyOfRange
         int[] crr2 = Arrays.copyOfRange(brr2,2,4); //just like substring methd in string
         printArray(crr2, crr2.length);
-
-
 
 
     }
