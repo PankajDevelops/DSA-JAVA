@@ -3,7 +3,7 @@ package Backtracking;
 public class maxKnightsInNxNBoard {
 
     static int maxKnights = -1;
-
+//gg
     public static boolean isSafe(char[][] grid, int row, int col){
 
         int n = grid.length;
