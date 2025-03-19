@@ -1,4 +1,5 @@
 package Backtracking;
+// basics of backtracking
 
 public class nQueens {
 
