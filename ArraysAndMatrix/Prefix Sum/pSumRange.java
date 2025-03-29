@@ -1,5 +1,5 @@
 import java.util.*;
-
+//prefixSum pattern
 public class pSumRange {
 
     public static void printArray(int arr[], int x){
