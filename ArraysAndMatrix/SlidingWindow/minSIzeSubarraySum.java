@@ -1,7 +1,9 @@
 package ArraysAndMatrix.SlidingWindow;
 import java.util.*;
-public class minSIzeSubarraySum {
 
+//sliding window template
+
+public class minSIzeSubarraySum {
     public static void main(String[] args) {
 
         /*
