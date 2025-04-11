@@ -1,7 +1,7 @@
 package ArraysAndMatrix.SlidingWindow;
 import java.util.*;
 
-//sliding window template
+//sliding window template updation
 
 public class minSIzeSubarraySum {
     public static void main(String[] args) {
@@ -9,6 +9,7 @@ public class minSIzeSubarraySum {
         /*
          * Input: target = 7, nums = [2,3,1,2,4,3]
          * Output: 2
+         * 
          */
 
          int arr[] = {2,3,1,2,4,3};
