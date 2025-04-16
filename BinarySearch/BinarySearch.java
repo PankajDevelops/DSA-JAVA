@@ -1,5 +1,5 @@
 package BinarySearch;
-
+// binary search problems
 public class BinarySearch {
 
     public static int searchBinary(int arr[], int size, int key) {
