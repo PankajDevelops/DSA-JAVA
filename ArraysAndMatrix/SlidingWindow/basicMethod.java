@@ -1,5 +1,5 @@
 package ArraysAndMatrix.SlidingWindow;
-//basic slif=ding window template
+//basic sliding window template
 public class basicMethod {
 
     public static void main(String[] args) {
