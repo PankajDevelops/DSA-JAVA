@@ -1,4 +1,5 @@
 import java.util.*;
+//basic prefix sum template
 
 public class equalPartition {
 
